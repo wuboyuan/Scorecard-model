@@ -1,0 +1,38 @@
+[2021-08-05 10:21:25 +0700] [22104] [INFO] Starting gunicorn 20.1.0
+[2021-08-05 10:21:25 +0700] [22104] [INFO] Listening at: http://172.16.0.53:6093 (22104)
+[2021-08-05 10:21:25 +0700] [22104] [INFO] Using worker: sync
+[2021-08-05 10:21:25 +0700] [22108] [INFO] Booting worker with pid: 22108
+[2021-08-05 10:21:25 +0700] [22117] [INFO] Booting worker with pid: 22117
+[2021-08-05 10:21:26 +0700] [22118] [INFO] Booting worker with pid: 22118
+[2021-08-05 10:21:26 +0700] [22135] [INFO] Booting worker with pid: 22135
+[2021-08-05 10:25:43 +0700] [22104] [INFO] Handling signal: hup
+[2021-08-05 10:25:43 +0700] [22104] [INFO] Hang up: Master
+[2021-08-05 10:25:43 +0700] [22397] [INFO] Booting worker with pid: 22397
+[2021-08-05 10:25:43 +0700] [22104] [WARNING] Worker with pid 22108 was terminated due to signal 1
+[2021-08-05 10:25:43 +0700] [22104] [WARNING] Worker with pid 22117 was terminated due to signal 1
+[2021-08-05 10:25:43 +0700] [22104] [WARNING] Worker with pid 22118 was terminated due to signal 1
+[2021-08-05 10:25:43 +0700] [22410] [INFO] Booting worker with pid: 22410
+[2021-08-05 10:25:43 +0700] [22408] [INFO] Booting worker with pid: 22408
+[2021-08-05 10:25:43 +0700] [22104] [WARNING] Worker with pid 22135 was terminated due to signal 1
+[2021-08-05 10:25:43 +0700] [22412] [INFO] Booting worker with pid: 22412
+[2021-08-05 10:26:27 +0700] [22104] [CRITICAL] WORKER TIMEOUT (pid:22410)
+/usr/local/python3/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2021-08-05 10:26:27 +0700] [22410] [INFO] Worker exiting (pid: 22410)
+[2021-08-05 10:26:27 +0700] [22607] [INFO] Booting worker with pid: 22607
+/usr/local/python3/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2021-08-05 10:30:56 +0700] [22408] [INFO] Parent changed, shutting down: <Worker 22408>
+/usr/local/python3/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2021-08-05 10:30:56 +0700] [22412] [INFO] Parent changed, shutting down: <Worker 22412>
+/usr/local/python3/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2021-08-05 10:30:56 +0700] [22397] [INFO] Parent changed, shutting down: <Worker 22397>
+[2021-08-05 10:30:56 +0700] [22408] [INFO] Worker exiting (pid: 22408)
+[2021-08-05 10:30:56 +0700] [22412] [INFO] Worker exiting (pid: 22412)
+[2021-08-05 10:30:56 +0700] [22397] [INFO] Worker exiting (pid: 22397)
+/usr/local/python3/lib/python3.6/site-packages/pandas/compat/__init__.py:85: UserWarning: Could not import the lzma module. Your installed Python is incomplete. Attempting to use lzma compression will result in a RuntimeError.
+  warnings.warn(msg)
+[2021-08-05 10:30:58 +0700] [22607] [INFO] Parent changed, shutting down: <Worker 22607>
+[2021-08-05 10:30:58 +0700] [22607] [INFO] Worker exiting (pid: 22607)
